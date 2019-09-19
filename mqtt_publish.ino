@@ -17,7 +17,7 @@ const unsigned int writeInterval = 25000;   // write interval (in ms)
 //AskSensors MQTT config
 const char* mqtt_server = "mqtt.asksensors.com";
 unsigned int mqtt_port = 1883;
-int PIR_data = 22;
+int PIR_data = 2;
 
 WiFiClient askClient;
 PubSubClient client(askClient);
