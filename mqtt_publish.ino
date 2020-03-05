@@ -1,7 +1,7 @@
 /*
  * MQTT and AskSensors IoT Platform
  * Description: ESP32 publishes PIR motion data to AskSensors over MQTT
- *  Author: https://asksensors.com, 2019
+ *  Author: https://asksensors.com, 2020
  *  github: https://github.com/asksensors
  */
  
@@ -12,7 +12,7 @@
 const char* ssid = ".................."; // Wifi SSID
 const char* password = ".................."; // Wifi Password
 const char* username = "................."; // my AskSensors username
-const char* pubTopic = "................../.................."; // username/apiKeyIn
+const char* pubTopic = "publish/..../....."; // publish/username/apiKeyIn
 const unsigned int writeInterval = 25000;   // write interval (in ms)
 //AskSensors MQTT config
 const char* mqtt_server = "mqtt.asksensors.com";
